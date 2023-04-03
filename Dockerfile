@@ -13,3 +13,5 @@ EXPOSE 5001
 CMD python main.py
 
 # docker build -t flaskapp .
+
+# docker run -it -p 5001:5001 harimani/flaskapp
