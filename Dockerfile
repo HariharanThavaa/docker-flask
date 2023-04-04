@@ -4,7 +4,7 @@ ADD . /code
 # Changing the directory
 WORKDIR /code
 # install libs
-RUN pip install flask
+RUN pip install -r req.txt
 
 # exposing the import
 EXPOSE 5001
